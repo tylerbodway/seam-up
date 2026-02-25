@@ -51,26 +51,25 @@ Skills use the `SKILL.md` format with YAML frontmatter. They are written in plai
 
 ### Claude Code
 
-Add each skill's `SKILL.md` as a custom instructions file in your project or user settings. You can either copy the files or reference them directly:
+Copy the skill directories into `.claude/skills/` (project-level) or `~/.claude/skills/` (personal):
 
 ```sh
-# Add to your project's .claude/ directory
+# Copy all skills into your project
 mkdir -p .claude/skills
-cp skills/*/SKILL.md .claude/skills/
+for dir in skills/*/; do cp -r "${dir%/}" .claude/skills/; done
 
-# Or add individual skills as custom instructions
-# In Claude Code, use /add-custom-instructions and point to the SKILL.md file
+# Or symlink individual skills
+ln -s "$(pwd)/skills/distill-spec" .claude/skills/distill-spec
 ```
-
-Alternatively, add the skill content to `.claude/settings.json` under `customInstructions` or reference the files in your project's `CLAUDE.md`.
 
 ### OpenCode
 
-Copy or symlink each skill directory into `~/.config/opencode/skills/`:
+Copy or symlink the skill directories into `.opencode/skills/` (project-level) or `~/.config/opencode/skills/` (personal):
 
 ```sh
-# Copy all skills
-cp -r skills/* ~/.config/opencode/skills/
+# Copy all skills into your project
+mkdir -p .opencode/skills
+for dir in skills/*/; do cp -r "${dir%/}" .opencode/skills/; done
 
 # Or symlink individual skills
 ln -s "$(pwd)/skills/distill-spec" ~/.config/opencode/skills/distill-spec
