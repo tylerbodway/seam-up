@@ -10,9 +10,9 @@ The skills follow a natural sequence, though you don't have to use all of them o
 Product spec
     │
     ▼
-┌─────────────┐
+┌──────────────┐
 │ distill-spec │  Translate to engineering spec
-└─────┬───────┘
+└─────┬────────┘
       │
       ▼
 ┌──────────┐
@@ -38,12 +38,12 @@ Product spec
 
 ## Skills
 
-| Skill | Purpose | Artifact layer |
-|-------|---------|---------------|
-| [distill-spec](distill-spec/SKILL.md) | Translate a product spec into a focused engineering spec | Shared |
-| [research](research/SKILL.md) | Explore the codebase against a spec, surface questions and design ideas for shaping | Personal |
-| [scope-split](scope-split/SKILL.md) | Document scope boundaries, design decisions, tradeoffs, and seam agreements | Shared |
-| [seam-change](seam-change/SKILL.md) | Draft a proposal when a seam agreement needs to change mid-build | Shared |
+| Skill                                 | Purpose                                                                             | Artifact layer |
+| ------------------------------------- | ----------------------------------------------------------------------------------- | -------------- |
+| [distill-spec](distill-spec/SKILL.md) | Translate a product spec into a focused engineering spec                            | Shared         |
+| [research](research/SKILL.md)         | Explore the codebase against a spec, surface questions and design ideas for shaping | Personal       |
+| [scope-split](scope-split/SKILL.md)   | Document scope boundaries, design decisions, tradeoffs, and seam agreements         | Shared         |
+| [seam-change](seam-change/SKILL.md)   | Draft a proposal when a seam agreement needs to change mid-build                    | Shared         |
 
 ## Installation
 
