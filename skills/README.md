@@ -2,6 +2,8 @@
 
 AI agent skills that operationalize the techniques from the [Seam Up](https://github.com/tylerbodway/seam-up/blob/main/docs/01-thesis.md) methodology. Each skill gives an AI coding agent a structured workflow for one step of the Seam Up process.
 
+These are starting points. Feel free to adapt them to your team's conventions, adjust them to fit your tooling, strip them down to just what's useful, or use them as-is to keep it simple.
+
 ## The workflow
 
 The skills follow a natural sequence, though you don't have to use all of them or use them in order:
