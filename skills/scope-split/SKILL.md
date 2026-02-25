@@ -7,7 +7,7 @@ description: Document scope boundaries, design decisions, and seam agreements fo
 
 Produce the shared design artifact for a project: the scope map, design decisions, tradeoffs, and seam agreements that builders work from during the build phase. This is the source-of-truth document that everyone references.
 
-This maps to [Technique 3: Scope splitting at the seams](../docs/05-techniques.md) and is a shared artifact per [Principle 2](../docs/04-principles.md). It's typically produced after a collaborative shaping session, capturing what the team agreed on.
+This maps to [Technique 3: Scope splitting at the seams](https://github.com/tylerbodway/seam-up/blob/main/docs/05-techniques.md) and is a shared artifact per [Principle 2](https://github.com/tylerbodway/seam-up/blob/main/docs/04-principles.md). It's typically produced after a collaborative shaping session, capturing what the team agreed on.
 
 ## Input
 
@@ -111,5 +111,5 @@ Adapt the template to fit the project. Some projects will have many scopes and s
 - This is a **shared artifact**. It represents team decisions, not one person's plan. Don't fabricate decisions that weren't made.
 - If the user is working alone and splitting their own work into scopes, that's fine -- the document still serves as a reference they can share or revisit. Note that seam agreements are less critical when one person holds all scopes.
 - Seam agreements should describe **what** crosses the boundary, not **how** each side implements it. The interface is shared; the implementation is each builder's domain.
-- Per [Principle 5](../docs/04-principles.md), seam agreements update only through a proposal process once the build phase begins. This document is the baseline. Changes go through `seam-change`.
+- Per [Principle 5](https://github.com/tylerbodway/seam-up/blob/main/docs/04-principles.md), seam agreements update only through a proposal process once the build phase begins. This document is the baseline. Changes go through `seam-change`.
 - Design decisions should include tradeoffs. A decision without a tradeoff either hasn't been fully considered or is obvious enough that it doesn't need documenting.

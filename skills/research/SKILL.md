@@ -7,7 +7,7 @@ description: Research an engineering spec to prepare for a shaping session. Use 
 
 Explore an engineering spec against the codebase to prepare personal pre-work for a collaborative shaping session. The output is a personal artifact -- rough, exploratory, and meant to give the builder a concrete starting point to bring to the team.
 
-This maps to the preparation step of [Technique 2: Shaping with pre-work](../docs/05-techniques.md). The book's guidance: share this as pre-read so the shaping session focuses on refining seams and challenging assumptions, rather than starting from a blank page.
+This maps to the preparation step of [Technique 2: Shaping with pre-work](https://github.com/tylerbodway/seam-up/blob/main/docs/05-techniques.md). The book's guidance: share this as pre-read so the shaping session focuses on refining seams and challenging assumptions, rather than starting from a blank page.
 
 ## Input
 

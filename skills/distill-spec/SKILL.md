@@ -7,7 +7,7 @@ description: Distill a product spec into an engineering spec. Use when a builder
 
 Translate a product spec into a lean engineering spec. The product spec comes from the product team and covers the full problem and solution space. The engineering spec strips away non-engineering context and focuses on what builders need to understand the problem, design a solution, and deliver working software.
 
-This is the entry point to the [Seam Up](../docs/01-thesis.md) workflow. The engineering spec becomes the shared foundation that all builders work from. It maps to [Technique 1: Layered artifact production](../docs/05-techniques.md).
+This is the entry point to the [Seam Up](https://github.com/tylerbodway/seam-up/blob/main/docs/01-thesis.md) workflow. The engineering spec becomes the shared foundation that all builders work from. It maps to [Technique 1: Layered artifact production](https://github.com/tylerbodway/seam-up/blob/main/docs/05-techniques.md).
 
 ## Input
 
@@ -61,7 +61,7 @@ Transform the product spec into an engineering-focused document. The goal is tra
 
 ### 4. Apply layer separation
 
-Before writing, review the distilled content through the lens of [shared and personal artifacts](../docs/04-principles.md):
+Before writing, review the distilled content through the lens of [shared and personal artifacts](https://github.com/tylerbodway/seam-up/blob/main/docs/04-principles.md):
 
 - **Shared layer**: Content that all builders need to understand. The problem, the solution, acceptance criteria, and any constraints that affect scope boundaries. This is the core of the engineering spec.
 - **Personal layer**: Content that an individual builder would use for their own planning. Implementation ideas, technical approaches, task breakdowns. If the product spec contains these, note them in a separate section rather than weaving them into the shared content.

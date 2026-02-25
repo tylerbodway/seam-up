@@ -7,7 +7,7 @@ description: Draft a seam-change proposal when a scope agreement needs to shift 
 
 Draft a structured proposal for changing a seam agreement during the build phase. When implementation reveals that a scope agreement doesn't hold -- an API shape needs to shift, a data model doesn't work as expected, a scope boundary needs to move -- this skill helps you write a clear, concise proposal for the affected builders.
 
-This maps to [Technique 4: Seam-change proposals](../docs/05-techniques.md) and [Principle 5: Seam changes are the highest-priority communication](../docs/04-principles.md). The goal is to surface the change quickly without interrupting flow -- draft the proposal, share it, and continue working on non-blocked parts of your scope.
+This maps to [Technique 4: Seam-change proposals](https://github.com/tylerbodway/seam-up/blob/main/docs/05-techniques.md) and [Principle 5: Seam changes are the highest-priority communication](https://github.com/tylerbodway/seam-up/blob/main/docs/04-principles.md). The goal is to surface the change quickly without interrupting flow -- draft the proposal, share it, and continue working on non-blocked parts of your scope.
 
 ## Input
 
@@ -90,5 +90,5 @@ Keep the proposal concise. A seam-change proposal that takes longer to write tha
 - Seam-change proposals are **shared artifacts**. They communicate across scope boundaries. Write for the audience: another builder who needs to understand what's changing in their scope.
 - Don't make the change unilaterally. The proposal is a request, not a notification. The affected builder reviews and either accepts, negotiates, or pushes back.
 - If the change is trivial (typo in a field name, minor type adjustment), suggest the user just communicate it directly rather than writing a formal proposal. This skill is for changes with real impact.
-- Per [Principle 4](../docs/04-principles.md), scope agreements update only through this kind of proposal process. Once the build phase begins, the scope split document is the baseline and changes are tracked.
+- Per [Principle 4](https://github.com/tylerbodway/seam-up/blob/main/docs/04-principles.md), scope agreements update only through this kind of proposal process. Once the build phase begins, the scope split document is the baseline and changes are tracked.
 - Frame the proposal neutrally. Present the facts and the options. Don't frame it as a failure that the original agreement was wrong -- shaping is always based on incomplete information, and discovering better approaches during building is expected.
