@@ -1,6 +1,6 @@
 # Skills
 
-AI agent skills that operationalize the techniques from the [Seam Up](../docs/01-thesis.md) methodology. Each skill gives an AI coding agent a structured workflow for one step of the Seam Up process.
+AI agent skills that operationalize the techniques from the [Seam Up](https://github.com/tylerbodway/seam-up/blob/main/docs/01-thesis.md) methodology. Each skill gives an AI coding agent a structured workflow for one step of the Seam Up process.
 
 ## The workflow
 
@@ -38,12 +38,12 @@ Product spec
 
 ## Skills
 
-| Skill                                 | Purpose                                                                             | Artifact layer |
-| ------------------------------------- | ----------------------------------------------------------------------------------- | -------------- |
-| [distill-spec](distill-spec/SKILL.md) | Translate a product spec into a focused engineering spec                            | Shared         |
-| [research](research/SKILL.md)         | Explore the codebase against a spec, surface questions and design ideas for shaping | Personal       |
-| [scope-split](scope-split/SKILL.md)   | Document scope boundaries, design decisions, tradeoffs, and seam agreements         | Shared         |
-| [seam-change](seam-change/SKILL.md)   | Draft a proposal when a seam agreement needs to change mid-build                    | Shared         |
+| Skill                                           | Purpose                                                                             | Artifact layer |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------- | -------------- |
+| [smup-distill-spec](smup-distill-spec/SKILL.md) | Translate a product spec into a focused engineering spec                            | Shared         |
+| [smup-research](smup-research/SKILL.md)         | Explore the codebase against a spec, surface questions and design ideas for shaping | Personal       |
+| [smup-scope-split](smup-scope-split/SKILL.md)   | Document scope boundaries, design decisions, tradeoffs, and seam agreements         | Shared         |
+| [smup-seam-change](smup-seam-change/SKILL.md)   | Draft a proposal when a seam agreement needs to change mid-build                    | Shared         |
 
 ## Installation
 
@@ -59,7 +59,7 @@ mkdir -p .claude/skills
 for dir in skills/*/; do cp -r "${dir%/}" .claude/skills/; done
 
 # Or symlink individual skills
-ln -s "$(pwd)/skills/distill-spec" .claude/skills/distill-spec
+ln -s "$(pwd)/skills/smup-distill-spec" .claude/skills/smup-distill-spec
 ```
 
 ### OpenCode
@@ -72,7 +72,7 @@ mkdir -p .opencode/skills
 for dir in skills/*/; do cp -r "${dir%/}" .opencode/skills/; done
 
 # Or symlink individual skills
-ln -s "$(pwd)/skills/distill-spec" ~/.config/opencode/skills/distill-spec
+ln -s "$(pwd)/skills/smup-distill-spec" ~/.config/opencode/skills/smup-distill-spec
 ```
 
 ### Other tools
@@ -81,4 +81,4 @@ Each skill is a standalone `SKILL.md` file with YAML frontmatter containing `nam
 
 ## Methodology
 
-These skills are companions to the [Seam Up book](../docs/01-thesis.md). The book explains the reasoning; the skills provide the operational workflows. Start with the book if you want to understand why these practices work.
+These skills are companions to the [Seam Up book](https://github.com/tylerbodway/seam-up/blob/main/docs/01-thesis.md). The book explains the reasoning; the skills provide the operational workflows. Start with the book if you want to understand why these practices work.

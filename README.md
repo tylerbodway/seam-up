@@ -36,9 +36,9 @@ Installable AI agent skills that operationalize the techniques from the book. Ea
 
 | Skill                                        | What it does                                                                |
 | -------------------------------------------- | --------------------------------------------------------------------------- |
-| [distill-spec](skills/distill-spec/SKILL.md) | Translate a product spec into a focused engineering spec                    |
-| [research](skills/research/SKILL.md)         | Explore the codebase against a spec, surface questions and design ideas     |
-| [scope-split](skills/scope-split/SKILL.md)   | Document scope boundaries, design decisions, tradeoffs, and seam agreements |
-| [seam-change](skills/seam-change/SKILL.md)   | Draft a proposal when a seam agreement needs to change mid-build            |
+| [smup-distill-spec](skills/smup-distill-spec/SKILL.md) | Translate a product spec into a focused engineering spec                    |
+| [smup-research](skills/smup-research/SKILL.md)         | Explore the codebase against a spec, surface questions and design ideas     |
+| [smup-scope-split](skills/smup-scope-split/SKILL.md)   | Document scope boundaries, design decisions, tradeoffs, and seam agreements |
+| [smup-seam-change](skills/smup-seam-change/SKILL.md)   | Draft a proposal when a seam agreement needs to change mid-build            |
 
 Skills are written in plain markdown with no tool-specific API references. They work with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenCode](https://opencode.ai), and any AI coding tool that supports skill or instruction files. See the [skills README](skills/README.md) for installation instructions.

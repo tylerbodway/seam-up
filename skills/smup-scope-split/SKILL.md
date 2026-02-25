@@ -1,5 +1,5 @@
 ---
-name: scope-split
+name: smup-scope-split
 description: Document scope boundaries, design decisions, and seam agreements for a project. Use after a shaping session to produce the shared artifact that serves as source-of-truth for builders during the build phase.
 ---
 

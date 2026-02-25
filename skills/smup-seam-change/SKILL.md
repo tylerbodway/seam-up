@@ -1,5 +1,5 @@
 ---
-name: seam-change
+name: smup-seam-change
 description: Draft a seam-change proposal when a scope agreement needs to shift mid-build. Use when a builder discovers during implementation that a seam definition, API contract, or scope boundary needs to change.
 ---
 

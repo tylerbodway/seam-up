@@ -1,5 +1,5 @@
 ---
-name: research
+name: smup-research
 description: Research an engineering spec to prepare for a shaping session. Use when a builder wants to explore how a spec maps to the codebase, surface open questions, and draft initial design ideas before collaborative shaping.
 ---
 

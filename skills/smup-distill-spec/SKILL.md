@@ -1,5 +1,5 @@
 ---
-name: distill-spec
+name: smup-distill-spec
 description: Distill a product spec into an engineering spec. Use when a builder has a product spec and needs to translate it into a focused engineering document with shared and personal layer separation.
 ---
 
